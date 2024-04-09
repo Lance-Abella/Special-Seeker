@@ -10,14 +10,6 @@ CREATE TABLE business
     seller_contact varchar(11) not null
 );
 
-CREATE TABLE persona 
-(
-	seller_id varchar(6) primary key,
-    seller_name varchar(50) not null,
-    seller_location varchar(50) not null,
-    seller_contact varchar(11) not null
-);
-
 CREATE TABLE agency
 (
 	category_id varchar(6) primary key,
