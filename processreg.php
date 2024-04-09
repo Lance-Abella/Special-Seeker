@@ -3,7 +3,7 @@ include_once("db.php");
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
       
-        $user_name = $_POST['username'];
+        
         $user_password = password_hash($_POST['password'], PASSWORD_BCRYPT);
         $first_name = $_POST['firstname'];
         $last_name = $_POST['lastname'];

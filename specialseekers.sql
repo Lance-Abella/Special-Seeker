@@ -2,20 +2,21 @@ CREATE DATABASE specialseekers;
 
 USE specialseekers;
 
--- CREATE TABLE business 
--- (
--- 	seller_id varchar(6) primary key,
---     seller_name varchar(50) not null,
---     seller_location varchar(50) not null,
---     seller_contact varchar(11) not null
--- );
+CREATE TABLE companies 
+(
+	com_id INT AUTO_INCREMENT PRIMARY KEY,
+    com_name VARCHAR(50) NOT NULL, 
+    com_desc VARCHAR(255) NOT NULL, 
+    com_img VARCHAR(255) NOT NULL  
+);
 
--- CREATE TABLE agency
--- (
--- 	category_id varchar(6) primary key,
---     category_name varchar(50) not null,
---     category_desc varchar(50) not null
--- );
+CREATE TABLE trainers 
+(
+	trainers_id INT AUTO_INCREMENT PRIMARY KEY,
+    trainers_name VARCHAR(50) NOT NULL, 
+    trainers_desc VARCHAR(255) NOT NULL, 
+    trainers_img VARCHAR(255) NOT NULL  
+);
 
 CREATE TABLE users
 (
