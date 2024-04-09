@@ -1,15 +1,8 @@
-@font-face {
-    font-family: "DMSans";
-    src: url("fonts\DM_Sans\DMSans-VariableFont_opsz,wght.ttf");
-}
-
-@font-face {
-    font-family: "Montserrat";
-    src: url("fonts\Montserrat\Montserrat-VariableFont_wght.ttf");
-}
+@import url('fonts.css');
 
 * {
     font-family: 'DMSans', sans-serif;
+    font-size: 20px;
 }
 
 body {
@@ -21,5 +14,10 @@ body {
     background-color: rgba(105, 121, 96, 1);
     font-weight: bold;
     color: rgba(245, 245, 245, 1);
+    width: 9rem;
+    height: 3rem;
 }
 
+.col {
+    text-align: center;
+}
