@@ -5,11 +5,3 @@ body {
     align-items: center;
     min-height: 100vh;
 }
-
-.login-btn {
-    margin-top: 1rem;
-}
-
-.inputPassword5 {
-    border-color: #697960;
-}
