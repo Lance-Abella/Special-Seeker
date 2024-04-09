@@ -1,8 +1,11 @@
 <?php
 include_once("db.php");
-require_once("login.php");
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+// if(isset($_POST["login-btn"])) {
+
+// }
+
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["login-btn"])) {
 
     $user_name = $_POST["username"];
     $user_password = $_POST["password"];
@@ -17,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "<script>confirm('You successfully logged in!'); window.location='student-listing.php';</script>";
 
         } else {
-            echo "<script>confirm('Login failed!'); window.location='login.php';</script>";
+            echo "<script>confirm('Login failed!'); window.location='../Special-Seeker/html/login.php';</script>";
         }
     } catch (PDOException $e) {
         echo "Error: " . $e->getMessage();
@@ -25,6 +28,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $conn = null;
     }
 }
+
+// if(isset($_POST["signup-btn"])) {
+//     header('Location: ..\html\registration.php');
+//     exit();
+// }
 ?>
 
 

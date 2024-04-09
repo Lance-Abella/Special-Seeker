@@ -25,7 +25,10 @@
                             <a class="nav-link" href="#" id="home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Companies</a>
+                            <a class="nav-link" href="">Forum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="companies.php">Companies</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#" id="train-btn">Train Now</a>
@@ -39,7 +42,7 @@
                 <h3 class="header-home">Find opportunity in Uniqhire!</h3>
                 <p class="mb-5">Welcome to Uniqhire, where every ability finds opportunity! Creating bridges to people with special needs, fostering inclusivity and celebrating diverse talents. Join us in building a world where everyone thrives!</p>
                 <div class="btns">
-                    <a class="navbar-brand apptrain-btns" href="#" id="apply-btn">Apply</a>
+                    <a class="navbar-brand apptrain-btns" href="companies.php" id="apply-btn">Apply</a>
                     <a class="navbar-brand apptrain-btns" href="#" id="train-btn">Train Now</a>
                 </div>
             </div>

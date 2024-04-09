@@ -10,6 +10,11 @@
 
 body {
     background-color: rgba(245, 245, 245, 1);
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo {
@@ -17,17 +22,13 @@ body {
     margin-bottom: 3rem;
 }
 
-.btn {
+#login {
     margin: 2rem 0;
     background-color: rgba(105, 121, 96, 1);
     font-weight: bold;
     color: rgba(245, 245, 245, 1);
     width: 9rem;
     height: 3rem;
-}
-
-.col {
-    text-align: center;
 }
 
 .horizontal-line {
@@ -45,17 +46,40 @@ body {
     color: rgba(105, 121, 96, 1);
 }
 
-#img-login {
-    max-width: 100%;
-    height: auto; 
+
+
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 120rem;
 }
 
 .img-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: stretch;
+    height: 40rem;
+    background-size: cover;
+    
 }
 
-.form-control {
-    width: 30rem;
+/* .img-container img {
+}
+*/
+
+.img-fluid {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.form-container {
+    /* border: 1px solid rgba(105, 121, 96, 1); */
+    width: 26rem;
+    padding: 2.37rem;
+    border-top: 1px solid rgba(105, 121, 96, 1);
+    border-bottom: 1px solid rgba(105, 121, 96, 1);
+    border-right: 1px solid rgba(105, 121, 96, 1);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
