@@ -9,8 +9,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="../images/logo-orig.png" type="image">
         <link rel="stylesheet" href="../bootstrap.min.css">
-        <link rel="stylesheet" href="../css/home.css" type="text/css">
-        <title>Home</title>
+        <link rel="stylesheet" href="../css/companies.css" type="text/css">
+        <title>Apply in a Company</title>
     </head>
     <body>
         <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
@@ -35,18 +35,19 @@
             </div>
         </nav>
         <div class="below-nav">
-            <div class="body-container ">
-                <h3 class="header-home">Find opportunity in Uniqhire!</h3>
-                <p class="mb-5">Welcome to Uniqhire, where every ability finds opportunity! Creating bridges to people with special needs, fostering inclusivity and celebrating diverse talents. Join us in building a world where everyone thrives!</p>
-                <div class="btns">
-                    <a class="navbar-brand apptrain-btns" href="#" id="apply-btn">Apply</a>
-                    <a class="navbar-brand apptrain-btns" href="#" id="train-btn">Train Now</a>
+            <div class="search-container mb-5">
+                <input class="searchbar" type="text" id="searchInput" placeholder="Search...">
+                <button class="searchbutton">Search</button>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
-            <div class="img-container">
-                <img src="../images\home-img.png" alt="" id="home-img">
-            </div>
         </div>
-        
     </body>
 </html>

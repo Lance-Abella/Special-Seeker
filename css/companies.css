@@ -1,0 +1,98 @@
+@import url('fonts.css');
+
+* {
+    font-family: 'DMSans', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: rgba(105, 121, 96, 1)
+}
+
+body {
+    background-color: rgba(245, 245, 245, 1);
+    height: 100vh;
+}
+
+.navbar {
+    border-bottom: 1.5px solid rgba(105, 121, 96, 1);
+}
+
+#logo {
+    height: 5rem;
+    margin-left: 3rem;
+}
+
+.navbar-brand {
+    color: rgba(105, 121, 96, 1);
+}
+
+.navbar-nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    font-size: 25px;
+    padding-right: 4.5rem;
+}
+
+#train-btn {
+    background-color: rgba(105, 121, 96, 1);
+    color: rgba(245, 245, 245, 1);
+    padding: 1rem;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+#train-btn:hover {
+    background-color: rgb(78, 90, 71);
+    color: rgba(245, 245, 245, 1);
+}
+
+.below-nav {
+    margin: 3rem;
+}
+
+.search-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+
+.searchbar {
+    padding: 10px;
+    width: 600px;
+    border-top-left-radius: 10px; /* Border radius for upper-left corner */
+    border-bottom-left-radius: 10px; /* Border radius for lower-left corner */
+}
+
+.searchbutton {
+    padding: 10px 20px;
+    background-color: rgba(105, 121, 96, 1);
+    color: white;
+    border: 1px solid rgba(105, 121, 96, 1);
+    cursor: pointer;
+    height: 54px;
+    border-top-right-radius: 10px; /* Border radius for upper-left corner */
+    border-bottom-right-radius: 10px; /* Border radius for lower-left corner */
+
+}
+  
+.searchbutton:hover {
+    background-color: rgb(78, 90, 71);
+}
+  
+
+.card-body .btn {
+    background-color: rgba(105, 121, 96, 1);
+    border: 1px solid rgb(78, 90, 71);
+}
+
+.card-body .btn:hover {
+    background-color: rgb(78, 90, 71);
+    border: 1px solid rgb(78, 90, 71);;
+}

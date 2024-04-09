@@ -17,11 +17,6 @@ body {
     border-bottom: 1.5px solid rgba(105, 121, 96, 1);
 }
 
-.navbar-div {
-    display: inline-block;
-    align-items: center;
-}
-
 #logo {
     height: 5rem;
     margin-left: 3rem;
@@ -40,9 +35,8 @@ body {
 }
 
 #train-btn:hover {
-    background-color: rgba(245, 245, 245, 1);
-    color: rgba(105, 121, 96, 1);
-    border: 1px solid rgba(105, 121, 96, 1);
+    background-color: rgb(78, 90, 71);
+    color: rgba(245, 245, 245, 1);
 }
 
 #apply-btn {
