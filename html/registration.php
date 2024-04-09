@@ -14,11 +14,7 @@
         * {
             font-family: 'DMSans', sans-serif;
             color: #8EA681;
-        }
-
-        .header{
-            /* padding-left: 20px; */
-        }
+        }        
 
         .logo{
             max-width: 150px;
@@ -35,6 +31,9 @@
 
         .form-control{
             height: 50px;
+            background-color: rgba(142, 166, 129, 0.5);
+            border: 1px solid #8EA681;
+            /* color: #8EA681; */
         }
 
         .custom-padding {
@@ -70,6 +69,10 @@
         .checkbox{
             width: 500px;
             margin-left: 250px;
+        }
+
+        ::placeholder {
+            color: #8EA681; 
         }
     </style>
 </head>
