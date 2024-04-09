@@ -6,7 +6,7 @@ CREATE TABLE companies
 (
 	com_id INT AUTO_INCREMENT PRIMARY KEY,
     com_name VARCHAR(50) NOT NULL, 
-    com_desc VARCHAR(255) NOT NULL, 
+    com_desc TEXT NOT NULL, 
     com_img VARCHAR(255) NOT NULL  
 );
 
@@ -14,7 +14,7 @@ CREATE TABLE trainers
 (
 	trainers_id INT AUTO_INCREMENT PRIMARY KEY,
     trainers_name VARCHAR(50) NOT NULL, 
-    trainers_desc VARCHAR(255) NOT NULL, 
+    trainers_desc TEXT NOT NULL, 
     trainers_img VARCHAR(255) NOT NULL  
 );
 
@@ -30,6 +30,13 @@ CREATE TABLE users
     email VARCHAR(50) NOT NULL
 );
 
+INSERT INTO companies (com_id, com_name, com_desc,com_img)
+VALUES 
+    ('1', 'AZ Electronics', 'Welcome to our electronics emporium, where innovation meets affordability! At our shop, you will find a curated selection of the latest gadgets, devices, and accessories to elevate your digital lifestyle.', '../images/electronics.jpg'),
+    ('2', 'Jazz Clothing', 'Step into our clothing boutique and unlock a world of fashion possibilities! Nestled in the heart of Cebu, our boutique offers a curated selection of stylish apparel and accessories for every occasion.','../images/clothings.jpeg'),
+    ('3', 'Home Decor', 'Welcome to our home decor haven, where every corner tells a story and every room reflects your unique personality!', '../images/homedecor.jpg'),
+    ('4', 'Beauty Salon', 'Welcome to our beauty sanctuary, where self-care meets indulgence and confidence is the ultimate accessory! Step into our salon and immerse yourself in a world of pampering and transformation.', '../images/beautysalon.jpg'),
+    ('5', 'Sports Center', 'Welcome to our sports center, where the pursuit of fitness and the thrill of competition come together to inspire greatness!', '../images/sportscenter.jpg');
 
 -- INSERT INTO seller (seller_id, seller_name, seller_location, seller_contact)
 -- VALUES 
@@ -39,13 +46,7 @@ CREATE TABLE users
 --     ('S104', 'Aaron Cosmetics', 'Davao', '09565678934'),
 --     ('S105', 'Abella Sports Shop', 'Quezon', '09786789056');
 
--- INSERT INTO category (category_id, category_name, category_desc)
--- VALUES 
---     ('C101', 'Electronics', 'Electronic devices and accessories'),
---     ('C102', 'Clothing', 'Apparel and accessories'),
---     ('C103', 'Home Decor', 'Furniture, lighting, and decor'),
---     ('C104', 'Beauty', 'Cosmetics and skincare'),
---     ('C105', 'Sports', 'Sporting goods and apparel');
+
 
 -- INSERT INTO product (product_id, category_id, seller_id, product_name, product_price, number_stocks)
 -- VALUES 
@@ -109,3 +110,5 @@ CREATE TABLE users
 --     ('ORD007', 'P109', 1, 3300.00, '2023-10-23'),
 --     ('ORD008', 'P101', 1, 11000.00, '2023-10-24'),
 --     ('ORD009', 'P102', 1, 45000.00, '2023-10-25');
+
+select * from companies;

@@ -32,8 +32,7 @@
         .form-control{
             height: 50px;
             background-color: rgba(142, 166, 129, 0.5);
-            border: 1px solid #8EA681;
-            /* color: #8EA681; */
+            border: 1px solid #8EA681;             
         }
 
         .custom-padding {
