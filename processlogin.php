@@ -1,6 +1,6 @@
 <?php
 include_once("db.php");
-require_once("login.php");
+// require_once("login.php");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -30,13 +30,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="">
-    <title>| Login</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../Special-Seeker/images/logo-new.png" type="image">
+        <title>Login</title>
+    </head>
+    <body>
+        
+    </body>
 </html>
