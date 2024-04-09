@@ -1,0 +1,85 @@
+@import url('fonts.css');
+
+* {
+    font-family: 'DMSans', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: rgba(105, 121, 96, 1);
+}
+
+body {
+    background-color: rgba(245, 245, 245, 1);
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 9rem;
+    margin-bottom: 3rem;
+}
+
+#login {
+    margin: 2rem 0;
+    background-color: rgba(105, 121, 96, 1);
+    font-weight: bold;
+    color: rgba(245, 245, 245, 1);
+    width: 9rem;
+    height: 3rem;
+}
+
+.horizontal-line {
+    color: rgba(105, 121, 96, 1);
+    border-bottom: 1.5px solid rgba(105, 121, 96, 1);
+}
+
+.acc-check {
+    margin-top: 2rem;
+}
+
+#signup {
+    background-color: transparent;
+    border: 1px solid rgba(105, 121, 96, 1);
+    color: rgba(105, 121, 96, 1);
+}
+
+
+
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 120rem;
+}
+
+.img-container {
+    display: flex;
+    align-items: stretch;
+    height: 40rem;
+    background-size: cover;
+    
+}
+
+/* .img-container img {
+}
+*/
+
+.img-fluid {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.form-container {
+    /* border: 1px solid rgba(105, 121, 96, 1); */
+    width: 26rem;
+    padding: 2.37rem;
+    border-top: 1px solid rgba(105, 121, 96, 1);
+    border-bottom: 1px solid rgba(105, 121, 96, 1);
+    border-right: 1px solid rgba(105, 121, 96, 1);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
