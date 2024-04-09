@@ -1,6 +1,6 @@
 <?php
 include_once("db.php");
-// require_once("login.php");
+require_once("login.php");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -39,4 +39,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <body>
         
     </body>
-</html>
+</html> -->

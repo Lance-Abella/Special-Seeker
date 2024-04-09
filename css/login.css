@@ -5,14 +5,11 @@
     font-size: 20px;
     margin: 0;
     padding: 0;
+    color: rgba(105, 121, 96, 1);
 }
 
 body {
     background-color: rgba(245, 245, 245, 1);
-}
-
-p {
-    color: rgba(105, 121, 96, 1);
 }
 
 .logo {
@@ -21,8 +18,7 @@ p {
 }
 
 .btn {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
     background-color: rgba(105, 121, 96, 1);
     font-weight: bold;
     color: rgba(245, 245, 245, 1);
@@ -58,4 +54,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.form-control {
+    width: 30rem;
 }
