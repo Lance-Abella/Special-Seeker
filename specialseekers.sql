@@ -2,32 +2,31 @@ CREATE DATABASE specialseekers;
 
 USE specialseekers;
 
-CREATE TABLE business 
-(
-	seller_id varchar(6) primary key,
-    seller_name varchar(50) not null,
-    seller_location varchar(50) not null,
-    seller_contact varchar(11) not null
-);
+-- CREATE TABLE business 
+-- (
+-- 	seller_id varchar(6) primary key,
+--     seller_name varchar(50) not null,
+--     seller_location varchar(50) not null,
+--     seller_contact varchar(11) not null
+-- );
 
-CREATE TABLE agency
-(
-	category_id varchar(6) primary key,
-    category_name varchar(50) not null,
-    category_desc varchar(50) not null
-);
+-- CREATE TABLE agency
+-- (
+-- 	category_id varchar(6) primary key,
+--     category_name varchar(50) not null,
+--     category_desc varchar(50) not null
+-- );
 
-CREATE TABLE user
+CREATE TABLE users
 (
-	product_id varchar(6) primary key,
-    category_id varchar(6),
-    foreign key(category_id) references category(category_id) on delete set null on update cascade,
-    seller_id varchar(6),
-    foreign key(seller_id) references seller(seller_id)
-    on delete set null on update cascade,
-    product_name varchar(50) not null,
-    product_price decimal(7,2) not null,
-    number_stocks integer
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL, 
+    password VARCHAR(100) NOT NULL,
+    firstname VARCHAR(50) NOT NULL,
+    lastname VARCHAR(50) NOT NULL,
+    birthdate DATE,
+    sex VARCHAR(6) NOT NULL,
+    email VARCHAR(50) NOT NULL
 );
 
 
