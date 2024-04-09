@@ -10,10 +10,16 @@
 
 body {
     background-color: rgba(245, 245, 245, 1);
+    height: 100vh;
 }
 
 .navbar {
     border-bottom: 1.5px solid rgba(105, 121, 96, 1);
+}
+
+.navbar-div {
+    display: inline-block;
+    align-items: center;
 }
 
 #logo {
@@ -66,10 +72,30 @@ body {
 }
 
 p {
-    margin-top: 2rem;
     width: 40rem;
 }
 
-.tabs {
-    text-align: right;
+.below-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+#home-img {
+    height: 30rem;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    font-size: 25px;
+    padding-right: 4.5rem;
+}
+
+#home {
+    text-decoration: underline;
 }

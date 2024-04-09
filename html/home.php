@@ -13,21 +13,40 @@
         <title>Home</title>
     </head>
     <body>
-        <nav class="navbar sticky-top ">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="../images/logo-orig.png" alt="" id="logo"></a>
-                <a class="navbar-brand tabs" href="#">Home</a>
-                <a class="navbar-brand tabs" href="#">Companies</a>
-                <a class="navbar-brand tabs" href="#" id="train-btn">Train Now</a>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="../images/logo-orig.png" alt="" id="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Companies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="train-btn">Train Now</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+        <div class="below-nav">
+            <div class="body-container ">
+                <h3 class="header-home">Find opportunity in Uniqhire!</h3>
+                <p class="mb-5">Welcome to Uniqhire, where every ability finds opportunity! Creating bridges to people with special needs, fostering inclusivity and celebrating diverse talents. Join us in building a world where everyone thrives!</p>
+                <div class="btns">
+                    <a class="navbar-brand apptrain-btns" href="#" id="apply-btn">Apply</a>
+                    <a class="navbar-brand apptrain-btns" href="#" id="train-btn">Train Now</a>
+                </div>
             </div>
-        </nav>
-        <div class="body-container">
-            <h3 class="header-home">Find opportunity in Uniqhire!</h3>
-            <p>Welcome to Uniqhire, where every ability finds opportunity! Creating bridges to people with special needs, fostering inclusivity and celebrating diverse talents. Join us in building a world where everyone thrives!</p>
+            <div class="img-container">
+                <img src="../images\home-img.png" alt="" id="home-img">
+            </div>
         </div>
-        <div class="body-container">
-            <a class="navbar-brand apptrain-btns" href="#" id="apply-btn">Apply</a>
-            <a class="navbar-brand apptrain-btns" href="#" id="train-btn">Train Now</a>
-        </div>
+        
     </body>
 </html>
