@@ -1,85 +1,92 @@
-@import url('fonts.css');
-
-* {
-    font-family: 'DMSans', sans-serif;
-    font-size: 20px;
+html, body, .container-fluid, .row, .col-6 {
+    height: 100vh;
     margin: 0;
     padding: 0;
-    color: rgba(105, 121, 96, 1);
 }
 
-body {
-    background-color: rgba(245, 245, 245, 1);
-    height: 100vh;
+body{
     display: flex;
-    text-align: center;
-    align-items: center;
     justify-content: center;
-}
-
-.logo {
-    height: 9rem;
-    margin-bottom: 3rem;
-}
-
-#login {
-    margin: 2rem 0;
-    background-color: rgba(105, 121, 96, 1);
-    font-weight: bold;
-    color: rgba(245, 245, 245, 1);
-    width: 9rem;
-    height: 3rem;
-}
-
-.horizontal-line {
-    color: rgba(105, 121, 96, 1);
-    border-bottom: 1.5px solid rgba(105, 121, 96, 1);
-}
-
-.acc-check {
-    margin-top: 2rem;
-}
-
-#signup {
-    background-color: transparent;
-    border: 1px solid rgba(105, 121, 96, 1);
-    color: rgba(105, 121, 96, 1);
-}
-
-
-
-.container {
-    display: flex;
-    text-align: center;
     align-items: center;
-    justify-content: center;
-    width: 120rem;
-}
-
-.img-container {
-    display: flex;
-    align-items: stretch;
-    height: 40rem;
-    background-size: cover;
     
 }
 
-/* .img-container img {
-}
-*/
-
+/* Set image height to cover the viewport height */
 .img-fluid {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    height: 100%;
+    object-fit: fill;
+    width: 100%;
 }
 
-.form-container {
-    /* border: 1px solid rgba(105, 121, 96, 1); */
-    width: 26rem;
-    padding: 2.37rem;
-    border-top: 1px solid rgba(105, 121, 96, 1);
-    border-bottom: 1px solid rgba(105, 121, 96, 1);
-    border-right: 1px solid rgba(105, 121, 96, 1);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+.img1{
+    height: 200px;
+}
+
+.box-area{
+    width: 930px;
+}
+
+.navbar {
+    border-bottom: 1.5px solid rgba(105, 121, 96, 1);
+}
+
+#logo {
+    height: 5rem;
+    margin-left: 3rem;
+}
+
+.navbar-brand {
+    color: rgba(105, 121, 96, 1);
+}
+
+.navbar-nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.header{
+    margin-top: 3%; 
+}
+
+.welcomeMsg h2{
+    color: rgba(105, 121, 96, 1);
+    margin-top: 5%;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mainComponent{
+    display: flex;
+    /* flex-direction: horizontal; */
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+}
+
+/* .formDiv {
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-right: 20px;
+     border: 1px solid rgba(105, 121, 96, 1);
+     width: 100%;
+    height:21.1rem;
+    padding-top:30px;
+    padding-left:20px;
+    padding-right:20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; 
+} */
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30rem;
+    padding: 2rem;
+}
+
+.bg {
+    width: 100%;
 }
