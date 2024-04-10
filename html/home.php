@@ -10,6 +10,7 @@
         <link rel="icon" href="../images/logo-orig.png" type="image">
         <link rel="stylesheet" href="../bootstrap.min.css">
         <link rel="stylesheet" href="../css/home.css" type="text/css">
+        <script defer src="../bootstrap.bundle.min.js"></script>
         <title>Home</title>
     </head>
     <body>
