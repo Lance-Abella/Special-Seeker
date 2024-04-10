@@ -26,6 +26,17 @@ body {
     color: rgba(105, 121, 96, 1);
 }
 
+.navbar-nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    font-size: 25px;
+    padding-right: 4.5rem;
+}
+
 #train-btn {
     background-color: rgba(105, 121, 96, 1);
     color: rgba(245, 245, 245, 1);
@@ -79,17 +90,15 @@ p {
     height: 30rem;
 }
 
-.navbar-nav {
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-}
-
-li {
-    font-size: 25px;
-    padding-right: 4.5rem;
-}
-
 #home {
     text-decoration: underline;
+}
+
+.dropdown-item {
+    /* padding-right: 3rem; */
+    width: 1rem;
+}
+
+#dropdownMenuButton {
+    font-size: 20px;
 }

@@ -1,0 +1,91 @@
+@import url('fonts.css');
+
+        * {
+            font-family: 'DMSans', sans-serif;
+            color: #8EA681;
+            font-size: 20px;
+        }        
+
+        .logo{
+            max-width: 150px;
+            margin-left: -30px;
+            margin-top: -20px;
+        }
+
+        .p-header{
+            color: #8EA681;
+            font-size: 50px;
+            text-align: center;
+            margin-top: -5px;
+        }
+
+        .form-control{
+            height: 50px;
+            background-color: rgba(142, 166, 129, 0.5);
+            border: 1px solid #8EA681;
+            /* color: #8EA681; */
+        }
+
+        .custom-padding {
+            padding-left: 300px;
+            padding-right: 300px;
+        }
+
+        span {
+            font-weight: bold;
+        }
+
+        .form-check-label{
+            white-space: normal;
+        }
+
+        .message{
+            text-align: center;
+        }
+
+        .link{
+            text-decoration: none;
+            color: #8EA681;
+            font-weight: bold;
+        }
+
+        .createbtn{
+            background-color: #8EA681;
+            color: white;
+            border: none;
+            font-weight: bold;
+        }      
+
+        ::placeholder {
+            color: #8EA681; 
+        }
+
+        .navbar {
+            border-bottom: 1.5px solid rgba(105, 121, 96, 1);
+        }
+        
+        #logo {
+            height: 5rem;
+            margin-left: 3rem;
+        }
+
+        .below-nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 5rem;
+        }
+
+        .checkbox {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        #grid-check {
+            margin-right: 1rem;
+        }
+
+        .form-check {
+            width: 26rem;
+        }

@@ -52,7 +52,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="home.php" >Home</a>
+                        <a class="nav-link" href="home.php" id="home">Home</a>
                     </li>
                     <li class="nav-item">
                             <a class="nav-link" href="">Forum</a>
@@ -73,9 +73,7 @@
                             </ul>
                         </div>
                     </li>
-
                 </ul>
-                
             </div>
         </div>
     </nav>

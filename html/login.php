@@ -1,6 +1,31 @@
 <?php
+    include_once("db.php");
+    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["login-btn"])) {
+        header('Location: home.php');
+        exit();
+        // $user_name = $_POST["username"];
+        // $user_password = $_POST["password"];
+
+        // try {
+        //     $stmt = $conn->prepare("SELECT password FROM users WHERE username = :username");
+        //     $stmt->bindParam(':username', $user_name, PDO::PARAM_STR);
+        //     $stmt->execute();
+        //     $result = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        //     if ($result && password_verify($user_password, $result['password'])) {
+        //         echo "<script>confirm('You successfully logged in!'); window.location='home.php';</script>";
+
+        //     } else {
+        //         echo "<script>confirm('Login failed!'); window.location='login.php';</script>";
+        //     }
+        // } catch (PDOException $e) {
+        //     echo "Error: " . $e->getMessage();
+        // } finally {
+        //     $conn = null;
+        // }
+    }
     if(isset($_POST["signup-btn"])) {
-        header('Location: ..\html\registration.php');
+        header('Location: registration.php');
         exit();
     }
 
@@ -20,31 +45,26 @@
     <body>
         <!-- <div class="container"> -->
             <div class="img-container">
-            <img src="../images/login-page.png" class="img-fluid" alt="image">
+                <img src="../images/login-page.png" class="img-fluid" alt="image">
             </div>
             <div class="form-container">
-                <img src="../images/logo-orig.png" alt="" class="logo">
-
-                <form action="../processlogin.php" method="post">
-
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="Username" name="username">
-                    <label for="floatingInput">Username</label>
-                </div>
-                <div class="form-floating">
-                    
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password">
-                    <label for="floatingPassword">Password</label>
-                    
-                        <button type="submit" class="btn btn-light" id="login" name="login-btn">Login</button>
-                        </form>
-                    <hr class="horizontal-line">
-                    <p class="acc-check">Don't have an account?</p>
-                    <form action="" method="post">
-                    <button type="submit" class="btn btn-light" id="signup" name="signup-btn">Sign-up</button>
-                    </form>
-                </div>
-                
+                <form action="" method="post">
+                    <div class="logo-container">
+                        <img src="../images/logo-orig.png" alt="" class="logo">
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Username" name="username">
+                        <label for="floatingInput">Username</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password">
+                        <label for="floatingPassword">Password</label>
+                            <button type="submit" class="btn btn-light" id="login" name="login-btn">Login</button>
+                        <hr class="horizontal-line">
+                        <p class="acc-check">Don't have an account?</p>
+                            <button type="submit" class="btn btn-light" id="signup" name="signup-btn">Sign-up</button>
+                    </div>
+                </form>
             </div>
 
         <!-- </div> -->

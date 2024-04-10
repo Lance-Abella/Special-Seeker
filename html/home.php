@@ -13,30 +13,40 @@
         <title>Home</title>
     </head>
     <body>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="../images/logo-orig.png" alt="" id="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="home">Home</a>
-                        </li>
-                        <li class="nav-item">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="../images/logo-orig.png" alt="" id="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.php" id="home">Home</a>
+                    </li>
+                    <li class="nav-item">
                             <a class="nav-link" href="">Forum</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="companies.php">Companies</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="train-btn">Train Now</a>
-                        </li>
-                    </ul>
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="companies.php" id="companies">Companies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="train-btn">Train Now</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle drop" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"></button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Settings</a></li>
+                                <li><a class="dropdown-item" href="login.php">Logout</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
         <div class="below-nav">
             <div class="body-container ">
                 <h3 class="header-home">Find opportunity in Uniqhire!</h3>
